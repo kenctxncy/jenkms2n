@@ -5,6 +5,7 @@ from flask import Flask
 from flask import request
 from io import BytesIO
 #why tf my webhook even broke wtf
+#update: webhook is working again nvm
 app = Flask(__name__)
 
 @app.route("/")
