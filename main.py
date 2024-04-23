@@ -12,7 +12,6 @@ def root():
       <input type="text" name="msg" placeholder="Enter text"/>
       <input type="submit" value="QR-code"/>
    </form>'''
-# Z Z ETO V ETO ZET ETO POBEDA
 
 @app.route("/qr")
 def qr():
